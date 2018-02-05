@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Foundation | Welcome</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+    </head>
+    <body>
+        <div class="grid-y medium-grid-frame">
+            <header>
+                <h1>Explore</h1>
+            </header>
+            <div class="grid-x large-auto medium-auto">
+                <div class="cell medium-auto">
+                    <div class="grid-y medium-grid-frame grid-padding-y">
+                        <div class="cell small-shrink medium-shrink large-shrink">
+                            <form id="search-cell"> 
+                                <div class="input-group" id="search-bar"> 
+                                    <span class="input-group-label">Search</span> 
+                                    <input class="input-group-field" type="text" id="search-location-input"> 
+                                </div>
+                                <button class="button" type="button" data-toggle="drop551">Toggle Dropdown</button>
+                                <div class="dropdown-pane" id="drop551" data-dropdown>
+                                    <div class="large-6 cell"> 
+                                        <label>Choose Your Favorite</label>                                         
+                                        <input type="radio" name="pokemon" value="Red" id="pokemonRed"> 
+                                        <label for="pokemonRed">Red</label>                                         
+                                        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"> 
+                                        <label for="pokemonBlue">Blue</label>                                         
+                                    </div>
+                                    <div class="large-6 cell" id="poi-options"> 
+                                        <input id="checkbox1" type="checkbox"> 
+                                        <label for="checkbox1">Checkbox 1</label>                                         
+                                        <input id="checkbox2" type="checkbox"> 
+                                        <label for="checkbox2">Checkbox 2</label>
+                                        <input id="checkbox3" type="checkbox"> 
+                                        <label for="checkbox3">Checkbox 3</label>
+                                        <input id="checkbox4" type="checkbox"> 
+                                        <label for="checkbox4">Checkbox 4</label>
+                                        <input id="checkbox5" type="checkbox"> 
+                                        <label for="checkbox5">Checkbox 5</label>
+                                    </div>                                     
+                                </div>                                 
+                            </form>                             
+                        </div>
+                        <div class="grid-x grid-padding-x large-cell-block-y medium-cell-block-y large-up-6 medium-up-6">
+                            <div class="card medium-6"> 
+                                <img src="http://pinegrow.com/placeholders/img12.jpg"> 
+                                <div class="card-divider">                            Styled Card                        </div>                                 
+                                <div class="card-section"> 
+                                    <p>It has an easy to override visual style, and is appropriately subdued.</p> 
+                                </div>                                 
+                            </div>
+                            <div class="card medium-6"> 
+                                <img src="http://pinegrow.com/placeholders/img12.jpg"> 
+                                <div class="card-divider">                            Styled Card                        </div>                                 
+                                <div class="card-section"> 
+                                    <p>It has an easy to override visual style, and is appropriately subdued.</p> 
+                                </div>                                 
+                            </div>
+                        </div>
+                        <div class="cell large-shrink medium-shrink small-shrink text-center">
+                            <ul class="pagination" role="navigation" aria-label="Pagination" id="results-pagination"> 
+                                <li class="pagination-previous">Previous 
+                                    <span class="show-for-sr">page</span>
+                                </li>                                 
+                                <li class="current">
+                                    1
+</li>                                 
+                                <li>
+                                    <a href="#" aria-label="Page 2">2</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#" aria-label="Page 3">3</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#" aria-label="Page 4">4</a>
+                                </li>                                 
+                                <li class="ellipsis" aria-hidden="true"></li>                                 
+                                <li>
+                                    <a href="#" aria-label="Page 12">12</a>
+                                </li>                                 
+                                <li>
+                                    <a href="#" aria-label="Page 13">13</a>
+                                </li>                                 
+                                <li class="pagination-next">
+                                    <a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
+                                </li>                                 
+                            </ul>                             
+                        </div>
+                    </div>                     
+                </div>
+                <div class="cell medium-full medium-6">
+                    <div class="grid-y medium-grid-frame">
+                        <div class="pg-empty-placeholder align-stretch large-auto" id="map"></div>
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script>
+      $(document).foundation();
+    </script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+    </body>
+</html>
